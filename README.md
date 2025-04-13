@@ -20,21 +20,7 @@ This project is built from both practical experience and data science techniques
 
 ## 🧱 Project Structure
 
-sales-forecasting-smallbiz/
-├── data/                   # Raw & processed data
-│   ├── raw/
-│   └── processed/
-├── notebooks/              # Jupyter notebooks
-│   ├── 01_eda.ipynb
-│   └── 02_modeling.ipynb
-├── src/                    # Custom Python functions
-│   └── utils.py
-├── app/                    # Optional Streamlit dashboard
-│   └── streamlit_app.py
-├── reports/                # Charts, figures, visuals
-│   └── figures/
-└── README.md               # Project overview
-
+still working on it
 
 ---
 
