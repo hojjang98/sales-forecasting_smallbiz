@@ -18,6 +18,8 @@ This project is built from both practical experience and data science techniques
 
 ---
 
+## 🧱 Project Structure
+
 sales-forecasting-smallbiz/
 ├── data/                   # Raw & processed data
 │   ├── raw/
@@ -32,7 +34,6 @@ sales-forecasting-smallbiz/
 ├── reports/                # Charts, figures, visuals
 │   └── figures/
 └── README.md               # Project overview
-
 
 
 ---
