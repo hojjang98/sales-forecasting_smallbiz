@@ -20,7 +20,7 @@ This project is built from both practical experience and data science techniques
 
 ## 🧱 Project Structure
 
-sales-forecasting_smallbiz/
+sales-forecasting_smallbiz
 ├── data/                 
 │   ├── raw/              
 │   └── processed/        
