@@ -20,18 +20,18 @@ This project is built from both practical experience and data science techniques
 
 ## 🧱 Project Structure
 
-sales-forecasting_smallbiz
-├── data/                 
+sales-forecasting_smallbiz/
+├── data/                  
 │   ├── raw/              
-│   └── processed/        
+│   └── processed/         
 ├── notebooks/           
-├── src/                  
-├── reports/             
+│   └── eda/               
+│       └── sales_EDA.ipynb    
+├── src/                   
+├── reports/              
 ├── README.md             
-├── .gitignore          
-├── requirements.txt     
-
-
+├── .gitignore             
+├── requirements.txt       
 ---
 
 ## 🛠️ Tools & Technologies
