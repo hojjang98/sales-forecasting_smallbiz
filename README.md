@@ -1,60 +1,58 @@
-# 🛍️ Small Business Sales Forecasting
+# 🛍️ Small Business Sales Forecasting – Neighborhood × Industry
 
-This project aims to support small business owners by predicting sales trends  
-based on transaction data, weather, calendar events, and other external variables.
-
-Having operated a small store myself for over 1 year and 4 months,  
-I understand the real-world challenges of managing unpredictable sales.  
-This project is built from both practical experience and data science techniques.
+This project explores **how much revenue a small business might generate**  
+when opening a specific type of store (*e.g., cafe, Korean restaurant, bakery*)  
+in a particular **administrative neighborhood** (*행정동*) in Seoul.
 
 ---
 
 ## 🎯 Objectives
 
-- Predict daily or weekly sales for small businesses
-- Improve forecast accuracy using weather, holidays, and external events
-- Visualize results to support real-world decisions (marketing, staffing, inventory)
-- Demonstrate modeling skills aligned with practical business needs
+- Predict **expected monthly sales** by neighborhood and industry type
+- Help small business owners make data-informed location decisions
+- Analyze past transaction data to identify **high-potential combinations**
+- Lay the groundwork for building **a predictive model** based on actual trends
 
 ---
 
 ## 🧱 Project Structure
 
-sales-forecasting_smallbiz/
-├── data/                  
-│   ├── raw/              
-│   └── processed/         
-├── notebooks/           
-│   └── eda/               
-│       └── sales_EDA.ipynb    
-├── src/                   
-├── reports/              
-├── README.md             
-├── .gitignore             
-├── requirements.txt       
+sales-forecasting_smallbiz/  
+├── data/                  # Raw & processed datasets  
+│   ├── raw/  
+│   └── processed/  
+├── notebooks/             # EDA & modeling notebooks  
+│   └── eda/  
+│       └── sales_EDA.ipynb  
+├── src/                   # Custom Python scripts  
+├── reports/               # Visualizations & exports  
+├── README.md  
+├── .gitignore  
+├── requirements.txt  
+
 ---
 
 ## 🛠️ Tools & Technologies
 
-- Python, pandas, scikit-learn, datetime
-- XGBoost, LightGBM, Prophet
-- SHAP, Plotly, Streamlit (optional)
+- Python, pandas, seaborn, matplotlib
+- scikit-learn (for modeling), LightGBM, XGBoost
+- Jupyter Notebook for analysis & prototyping
 
 ---
 
 ## 📈 Status
 
-✅ Repository created  
-🔄 Data collection and preprocessing in progress  
-🧪 EDA and feature engineering next  
-📊 Model building and evaluation coming soon
+✅ Data loaded and cleaned  
+📊 EDA in progress (focus: industry-level sales patterns)  
+🔮 Modeling (upcoming): predict sales based on location + industry  
 
 ---
 
 ## 📬 Contact
 
-Feel free to check out my other projects or reach out via [GitHub Profile](https://github.com/hojjang98).
+Feel free to explore more of my work on [GitHub](https://github.com/hojjang98)  
+or reach out if you're curious about how I approached this project.
 
 ---
 
-> *Built by someone who knows what it's like to run a small business – and what kind of insights really matter.*
+> *Inspired by real experience — built with small business owners in mind.*

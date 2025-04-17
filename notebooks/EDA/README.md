@@ -1,15 +1,16 @@
-# 📊 EDA – Industry-Level Sales Trends (2024, Seoul)
+# 📊 EDA – Sales Patterns by Industry & Neighborhood (2024, Seoul)
 
-This notebook explores quarterly sales patterns across various service industries in Seoul, using public business data from 2024. The goal of this EDA is to uncover **macro-level trends** that inform downstream sales prediction models.
+This notebook explores sales patterns across **different service industries and neighborhoods (행정동)** in Seoul, using public business data from 2024.  
+The main goal is to uncover **revenue trends by location and industry** — insights that will guide downstream **sales prediction models**.
 
 ---
 
 ## 📌 Objectives
 
-- Identify the **highest-grossing industries** per quarter
-- Visualize **seasonal patterns** and industry trends over time
-- Pinpoint **top 5 industries** in each quarter based on total sales
-- Lay the groundwork for more localized analysis (e.g., by district)
+- Analyze sales distributions across **industry types**
+- Identify **high-performing districts** for specific industries
+- Explore **seasonal and regional variations** in sales
+- Build an intuitive understanding of what drives local sales differences
 
 ---
 
@@ -19,35 +20,35 @@ This notebook explores quarterly sales patterns across various service industrie
 - **Columns used**:
   - `기준_년분기_코드` (Quarter code)
   - `서비스_업종_코드_명` (Service industry name)
+  - `행정동_코드_명` (Administrative neighborhood)
   - `당월_매출_금액` (Monthly sales)
-  - `행정동_코드_명` (Administrative district)
 
 ---
 
 ## 📈 Key Insights
 
-- **Top-performing industries** like 한식음식점 (Korean restaurants) and 수산물판매 (seafood sales) dominate certain quarters.
-- Industry rankings can fluctuate significantly **between quarters**, reflecting strong **seasonality**.
-- A small number of industries generate the majority of sales, suggesting that a few dominant sectors drive the economy.
+- **Certain neighborhoods consistently outperform others** in terms of revenue for specific industries (e.g., cafes, fried chicken, beauty salons).
+- There are clear **seasonal trends** in sales volume, especially for food-related sectors.
+- **Some industries are highly location-sensitive**, while others perform evenly across districts.
 
 ---
 
 ## 📂 Files
 
 - `sales_EDA.ipynb`:  
-  Full notebook with clean plots, grouped bar charts, and labeled insights.  
-  All comments and outputs are written in English.
+  Cleaned notebook with grouped bar charts, boxplots, and descriptive stats.  
+  All visuals and commentary are written in English for clarity.
 
 ---
 
 ## 🧩 Next Steps
 
-This notebook is Part 1 of a two-stage EDA:
-1. **[✓ Done]** Industry-level trend analysis  
-2. **[🔜 Upcoming]** District-level analysis:  
-   "How much does each neighborhood make?" and  
-   "How much would a typical business (e.g., 치킨집) earn in a given district?"
+This notebook is Part 1 of a multi-step analysis:
+1. **[✓ Done]** Industry- and district-level trend exploration  
+2. **[🔜 Upcoming]** Modeling expected sales:  
+   "If you open a business in a specific district, how much can you expect to earn?"  
+   → Regression-based prediction models using location and industry features
 
 ---
 
-Feel free to explore the plots and logic in the notebook, or reuse the cleaned code blocks in other notebooks.
+Feel free to check out the visualizations and reuse the code as needed!
