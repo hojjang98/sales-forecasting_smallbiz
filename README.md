@@ -1,58 +1,52 @@
-# 🛍️ Small Business Sales Forecasting – Neighborhood × Industry
+# 📊 EDA – Sales Patterns by Industry & Neighborhood (2024, Seoul)
 
-This project explores **how much revenue a small business might generate**  
-when opening a specific type of store (*e.g., cafe, Korean restaurant, bakery*)  
-in a particular **administrative neighborhood** (*행정동*) in Seoul.
-
----
-
-## 🎯 Objectives
-
-- Predict **expected monthly sales** by neighborhood and industry type
-- Help small business owners make data-informed location decisions
-- Analyze past transaction data to identify **high-potential combinations**
-- Lay the groundwork for building **a predictive model** based on actual trends
+This notebook explores sales patterns across **different service industries and neighborhoods (행정동)** in Seoul, using public business data from 2024.  
+The main goal is to uncover **revenue trends by location and industry** — insights that will guide downstream **sales prediction models**.
 
 ---
 
-## 🧱 Project Structure
+## 📌 Objectives
 
-sales-forecasting_smallbiz/  
-├── data/                  # Raw & processed datasets  
-│   ├── raw/  
-│   └── processed/  
-├── notebooks/             # EDA & modeling notebooks  
-│   └── eda/  
-│       └── sales_EDA.ipynb  
-├── src/                   # Custom Python scripts  
-├── reports/               # Visualizations & exports  
-├── README.md  
-├── .gitignore  
-├── requirements.txt  
+- Analyze sales distributions across **industry types**
+- Identify **high-performing districts** for specific industries
+- Explore **seasonal and regional variations** in sales
+- Build an intuitive understanding of what drives local sales differences
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🧪 Data Overview
 
-- Python, pandas, seaborn, matplotlib
-- scikit-learn (for modeling), LightGBM, XGBoost
-- Jupyter Notebook for analysis & prototyping
-
----
-
-## 📈 Status
-
-✅ Data loaded and cleaned  
-📊 EDA in progress (focus: industry-level sales patterns)  
-🔮 Modeling (upcoming): predict sales based on location + industry  
+- **Source**: Seoul Open Data Platform  
+- **Columns used**:
+  - `기준_년분기_코드` (Quarter code)
+  - `서비스_업종_코드_명` (Service industry name)
+  - `행정동_코드_명` (Administrative neighborhood)
+  - `당월_매출_금액` (Monthly sales)
 
 ---
 
-## 📬 Contact
+## 📈 Key Insights
 
-Feel free to explore more of my work on [GitHub](https://github.com/hojjang98)  
-or reach out if you're curious about how I approached this project.
+- **Certain neighborhoods consistently outperform others** in terms of revenue for specific industries (e.g., cafes, fried chicken, beauty salons).
+- There are clear **seasonal trends** in sales volume, especially for food-related sectors.
+- **Some industries are highly location-sensitive**, while others perform evenly across districts.
 
 ---
 
-> *Inspired by real experience — built with small business owners in mind.*
+## 📂 Files
+
+- `sales_EDA.ipynb`:  
+  Cleaned notebook with grouped bar charts, boxplots, and descriptive stats.  
+  All visuals and commentary are written in English for clarity.
+
+---
+
+## 🧩 Next Steps
+
+This notebook is Part 1 of a multi-step analysis:
+1. **[✓ Done]** Industry- and district-level trend exploration  
+2. **[🔜 Upcoming]** Modeling expected sales:  
+   "If you open a business in a specific district, how much can you expect to earn?"  
+   → Regression-based prediction models using location and industry features
+
+More insights, models, and visualizations will be added as the project evolves 🚀

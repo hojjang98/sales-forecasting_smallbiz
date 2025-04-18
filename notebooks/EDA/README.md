@@ -28,27 +28,27 @@ The main goal is to uncover **revenue trends by location and industry** — insi
 ## 📈 Key Insights
 
 - **Certain neighborhoods consistently outperform others** in terms of revenue for specific industries (e.g., cafes, fried chicken, beauty salons).
-- There are clear **seasonal trends** in sales volume, especially for food-related sectors.
-- **Some industries are highly location-sensitive**, while others perform evenly across districts.
+- Clear **seasonal trends** are observed, especially in food and beverage sectors.
+- **Some industries are highly location-sensitive**, while others show more consistent performance across districts.
 
 ---
 
 ## 📂 Files
 
-- `sales_EDA.ipynb`:  
-  Cleaned notebook with grouped bar charts, boxplots, and descriptive stats.  
-  All visuals and commentary are written in English for clarity.
+- `sales_EDA.ipynb`  
+  A cleaned and structured notebook with grouped bar charts, boxplots, and descriptive statistics.  
+  All code and commentary are written in English for clarity and reusability.
 
 ---
 
 ## 🧩 Next Steps
 
 This notebook is Part 1 of a multi-step analysis:
-1. **[✓ Done]** Industry- and district-level trend exploration  
-2. **[🔜 Upcoming]** Modeling expected sales:  
+1. **[✓ Completed]** Trend exploration by industry and neighborhood  
+2. **[🔜 In Progress]** Predictive modeling:  
    "If you open a business in a specific district, how much can you expect to earn?"  
-   → Regression-based prediction models using location and industry features
+   → Regression-based models using location and industry features
 
 ---
 
-Feel free to check out the visualizations and reuse the code as needed!
+More insights and enhancements will be added as the project continues — stay tuned 🚀
